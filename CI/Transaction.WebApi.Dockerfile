@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/sdk:5.0
+FROM mcr.microsoft.com/dotnet/sdk:5.0  AS build-end
 WORKDIR /app
 
 #Copy csproj and restore as distinct layers
